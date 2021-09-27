@@ -51,4 +51,9 @@ public class PmsDaoTests {
         String json = JSONUtil.parse(productResult).toString();
         LOGGER.info(json);
     }
+
+    @Test
+    public void test1() {
+        System.out.println("测试1");
+    }
 }
